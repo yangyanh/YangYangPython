@@ -4,3 +4,7 @@ def printsysParam():
 
 
 printsysParam()
+#输入
+name = input("Enter your Name:")
+# 输出
+print("Your name is",name)
