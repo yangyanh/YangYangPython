@@ -16,7 +16,7 @@ def readFile():
 def apendFile():
     f = open(fileName,'a',encoding='utf8')
     print(f.fileno())
-    f.write("\n456")
+    f.write("\n"+str(time.time()))
     time.sleep(10)
     f.close()
 
@@ -25,4 +25,6 @@ def testPrint():
         print("*",end='',flush=True)
         time.sleep(0.1)
 
-testPrint()
+# testPrint()
+apendFile()
+readFile()
