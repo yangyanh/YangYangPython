@@ -2,7 +2,7 @@
 #__author__:Administrator
 #__date__:2019/11/23
 import time
-fileName = '小重山'
+fileName = 'smallmountant'
 
 def readFile():
     f = open(fileName,'r',encoding='utf8')
