@@ -31,25 +31,6 @@ def move(array1,array2):
 print(array1,array2,array3)
 moven(3,array1,array2,array3)
 
-# while array1 or array2:
-#     if move(array1,array2):
-#         print(array1, array2, array3)
-#         continue
-#     if move(array1,array3):
-#         print(array1, array2, array3)
-#         continue
-#     if move(array2,array3):
-#         print(array1, array2, array3)
-#         continue
-#     if move(array2,array1):
-#         print(array1, array2, array3)
-#         continue
-#     if move(array3,array1):
-#         print(array1, array2, array3)
-#         continue
-#     if move(array3,array2):
-#         print(array1, array2, array3)
-#         continue
 
 
 
